@@ -1,0 +1,129 @@
+.tableContainer{
+
+  padding: 20px;
+  font-size: small;
+}
+.editColumn{
+
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.editButton{
+  width: 50px;
+  
+  border: none;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: rgb(4, 117, 230);
+  color: bisque;
+  font-size: small;
+  font-weight: bold;
+  padding: 3px;
+  border-radius: 5px;
+
+}
+
+
+.pagination-total{
+  padding-top: 5px;
+  font-weight: 600;
+}
+.CompanytextFilter{
+  font-size: x-small;
+}
+.CompanyStateFilter{
+  font-size: x-small;
+}
+
+.CompanyHeader{
+  font-size: xx-large;
+  font-weight: 600;
+}
+.CompanyIdTextFilter{
+  font-size: x-small;
+}
+.comapanyImage{
+  display: flex;
+ 
+  justify-content: center;
+  align-items: center;
+}
+.BtnContainer{
+  width: 100vw;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.AddButton{
+  width:max-content;
+  color:white;
+  background-color: teal;
+  border: none;
+  border-radius: 4px;
+  padding: 6px 20px;
+  
+  margin-top: 10px;
+  transition: all ease 250ms;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+}
+.AddButton:hover{
+  cursor: pointer;
+  background-color: rgb(3, 105, 105);
+  color: white;
+  transform: scale(1.05);
+  
+}
+
+.AddButton:focus{
+  outline: none;
+}
+
+.FormHead{
+  font-size:medium;
+  font-weight: 400;
+
+}
+
+.formbody{
+  font-size: small;
+}
+
+.formbody input{
+    font-size: small;
+}
+.StateCol{
+  display: flex;
+  flex-direction: column;
+}
+
+.StateCol select{
+  width: 100%;
+  font-size: small;
+
+  padding: 5px;
+  border: 1px solid rgb(186, 183, 183);
+  border-radius: 5px;
+}
+.StateCol select:focus{
+  outline: none;
+
+}
+
+.footer button{
+  font-size: small;
+}
+.CompanytextFilter {
+  font-size: x-small;
+
+}
+.CompanyContactNumberFilter{
+  font-size: x-small;
+}
